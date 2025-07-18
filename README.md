@@ -28,12 +28,12 @@ And that is all! You're ready to go.
 
 ### 🗔 Widgets
 
-#### ➤ CenterContentScrollView
+#### ➤ CenteringScrollView
 `CustomScrollView` with centered children inside. Centering will apply only if content size is less than ScrollView size.
 
 Usage: 
 ```dart
-final widget = CenterContentScrollView(
+final widget = CenteringScrollView(
     children: [
         Text('Heading'),
         Container(

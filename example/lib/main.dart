@@ -63,7 +63,7 @@ class HomePage extends StatelessWidget {
   }
 }
 
-/// Page with [CenterContentScrollView] widget.
+/// Page with [CenteringScrollView] widget.
 /// 
 /// Short list wil be centered.
 class CenteredContentScrollPage extends StatefulWidget {
@@ -83,7 +83,7 @@ class _CenteredContentScrollPageState extends State<CenteredContentScrollPage> {
       appBar: AppBar(
         title: Text('CenteredContentListView'),
       ),
-      body: CenterContentScrollView(
+      body: CenteringScrollView(
         padding: const EdgeInsets.all(24),
         children: [
           Text(_isShortList ? 'Small list' : 'Large list', textAlign: TextAlign.center,),

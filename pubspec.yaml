@@ -1,7 +1,10 @@
 name: flutter_neat_ui
-description: "A Flutter package UI helpers (widgets/utils)."
+description: A Flutter package with UI helpers (widgets/utils).
 version: 0.0.1
-homepage:
+author: Volodymyr Shein <neatcoding@gmai.com>
+homepage: https://github.com/neatcodingZP/flutter_neat_ui
+repository: https://github.com/neatcodingZP/flutter_neat_ui
+issue_tracker: https://github.com/neatcodingZP/flutter_neat_ui/issues
 
 environment:
   sdk: ^3.7.2
